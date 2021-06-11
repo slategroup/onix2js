@@ -22,9 +22,12 @@ export class Product {
     this.publishingDetail = new PublishingDetail(
       parseValue(json, "PublishingDetail")
     );
-    this.relatedMaterial = new RelatedMaterial(
-      parseValue(json, "RelatedMaterial")
-    );
+
+    if (json.RelatedMaterial) {
+      this.relatedMaterial = new RelatedMaterial(
+        parseValue(json, "RelatedMaterial")
+      );
+    }
     this.productSupply = new ProductSupply(parseValue(json, "ProductSupply"));
   }
 

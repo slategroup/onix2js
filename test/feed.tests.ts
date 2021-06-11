@@ -1,5 +1,6 @@
 import { expect } from "chai";
 import fs from "fs";
+//import util from "util";
 import { parse } from "../src/index";
 
 describe("Feeds", () => {
@@ -202,6 +203,8 @@ describe("Feeds", () => {
     const expected = {
       header: {
         sender: {
+          contactName: "xx",
+          emailAddress: "scs@xx.dk",
           senderName: "xx",
         },
         sentDateTime: new Date(Date.UTC(2021, 4, 21)),
@@ -369,5 +372,16 @@ describe("Feeds", () => {
     };
 
     expect(onix).to.deep.equal(expected);
+  });
+
+  it("hachette.xml", async () => {
+    const xml = fs.readFileSync("./test/templates/hachette.xml", "utf8");
+
+    const onix = await parse(xml);
+
+    //console.log(util.inspect(onix, false, null, true));
+
+    //smoke test!
+    expect(true).to.equal(true);
   });
 });

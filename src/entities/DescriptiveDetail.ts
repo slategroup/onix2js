@@ -15,6 +15,7 @@ import {
   EPublicationTechnicalProtectionEnum,
   EPublicationTechnicalProtection,
 } from "../codelists/EPublicationTechnicalProtection";
+import { EditionTypeEnum, EditionType } from "../codelists/EditionType";
 
 import { TitleDetail } from "./TitleDetail";
 import { Contributor } from "./Contributor";
@@ -23,7 +24,7 @@ import { Subject } from "./Subject";
 import { Extent } from "./Extent";
 import { Collection } from "./Collection";
 
-import { parseType } from "../utils/parse";
+import { parseType, parseValue } from "../utils/parse";
 
 export class DescriptiveDetail {
   constructor(json: any) {
@@ -48,6 +49,8 @@ export class DescriptiveDetail {
       "EpubTechnicalProtection",
       EPublicationTechnicalProtection
     );
+    if (json.EditionType)
+      this.editionType = parseType(json, "EditionType", EditionType);
 
     this.titleDetail = new TitleDetail(json.TitleDetail[0]);
     this.collections =
@@ -57,6 +60,8 @@ export class DescriptiveDetail {
     this.languages = (json.Language || []).map((l) => new Language(l)) || [];
     this.subjects = (json.Subject || []).map((s) => new Subject(s)) || [];
     this.extents = (json.Extent || []).map((e) => new Extent(e)) || [];
+    if (json.EditionStatement)
+      this.editionStatement = parseValue(json, "EditionStatement");
   }
 
   productComposition: ProductCompositionEnum;
@@ -64,10 +69,12 @@ export class DescriptiveDetail {
   productFormDetail: ProductFormDetailEnum;
   primaryContentType: ProductContentTypeEnum;
   epubTechnicalProtection: EPublicationTechnicalProtectionEnum;
+  editionType: EditionTypeEnum;
   titleDetail: TitleDetail;
   collections: Collection[];
   contributors: Contributor[];
   languages: Language[];
   subjects: Subject[];
   extents: Extent[];
+  editionStatement: string;
 }

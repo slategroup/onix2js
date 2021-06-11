@@ -13,10 +13,12 @@ export class TitleElement {
       TitleElementLevel
     );
     this.titleText = parseValue(json, "TitleText");
-    this.partNumber = parseValue(json, "PartNumber");
+    if (json.PartNumber) this.partNumber = parseValue(json, "PartNumber");
+    if (json.Subtitle) this.subtitle = parseValue(json, "Subtitle");
   }
 
   titleElementLevel: TitleElementLevelEnum;
   titleText: string;
   partNumber: string;
+  subtitle: string;
 }

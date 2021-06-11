@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ONIXMessage release="3.0">
+<Header>
+<Sender>
+<SenderName>Ingram Content Group</SenderName>
+<ContactName>CoreSource</ContactName>
+<EmailAddress>partnersupport@ingramcontent.com</EmailAddress>
+</Sender>
+<Addressee>
+<AddresseeName>Slate</AddresseeName>
+</Addressee>
+<SentDateTime>20210607T153323Z</SentDateTime>
+</Header>
+<Product>
+<RecordReference>9781478911845</RecordReference>
+<NotificationType>03</NotificationType>
+<ProductIdentifier>
+<ProductIDType>15</ProductIDType>
+<IDValue>9781478911845</IDValue>
+</ProductIdentifier>
+<ProductIdentifier>
+<ProductIDType>02</ProductIDType>
+<IDValue>1478911840</IDValue>
+</ProductIdentifier>
+<ProductIdentifier>
+<ProductIDType>14</ProductIDType>
+<IDValue>09781478911845</IDValue>
+</ProductIdentifier>
+<ProductIdentifier>
+<ProductIDType>03</ProductIDType>
+<IDValue>9781478911845</IDValue>
+</ProductIdentifier>
+<DescriptiveDetail>
+<ProductComposition>00</ProductComposition>
+<ProductForm>AJ</ProductForm>
+<ProductFormDetail>A104</ProductFormDetail>
+<ProductFormDescription>Lossless Format Audio, WAV</ProductFormDescription>
+<PrimaryContentType>01</PrimaryContentType>
+<NoCollection/>
+<TitleDetail>
+<TitleType>01</TitleType>
+<TitleElement>
+<TitleElementLevel>01</TitleElementLevel>
+<TitleText>Upon Further Review</TitleText>
+<Subtitle>The Greatest What-Ifs in Sports History</Subtitle>
+</TitleElement>
+</TitleDetail>
+<Contributor>
+<SequenceNumber>1</SequenceNumber>
+<ContributorRole>A01</ContributorRole>
+<PersonName>Mike Pesca</PersonName>
+<PersonNameInverted>Pesca, Mike</PersonNameInverted>
+<NamesBeforeKey>Mike</NamesBeforeKey>
+<KeyNames>Pesca</KeyNames>
+</Contributor>
+<Contributor>
+<SequenceNumber>2</SequenceNumber>
+<ContributorRole>E07</ContributorRole>
+<PersonName>Mike Pesca</PersonName>
+<PersonNameInverted>Pesca, Mike</PersonNameInverted>
+<NamesBeforeKey>Mike</NamesBeforeKey>
+<KeyNames>Pesca</KeyNames>
+</Contributor>
+<Contributor>
+<SequenceNumber>3</SequenceNumber>
+<ContributorRole>E07</ContributorRole>
+<PersonName>Shira Springer</PersonName>
+<PersonNameInverted>Springer, Shira</PersonNameInverted>
+<NamesBeforeKey>Shira</NamesBeforeKey>
+<KeyNames>Springer</KeyNames>
+</Contributor>
+<Contributor>
+<SequenceNumber>4</SequenceNumber>
+<ContributorRole>E07</ContributorRole>
+<PersonName>Peter Thomas Fornatale</PersonName>
+<PersonNameInverted>Fornatale, Peter Thomas</PersonNameInverted>
+<NamesBeforeKey>Peter Thomas</NamesBeforeKey>
+<KeyNames>Fornatale</KeyNames>
+</Contributor>
+<Contributor>
+<SequenceNumber>5</SequenceNumber>
+<ContributorRole>E07</ContributorRole>
+<PersonName>Jesse Eisenberg</PersonName>
+<PersonNameInverted>Eisenberg, Jesse</PersonNameInverted>
+<NamesBeforeKey>Jesse</NamesBeforeKey>
+<KeyNames>Eisenberg</KeyNames>
+</Contributor>
+<Contributor>
+<SequenceNumber>6</SequenceNumber>
+<ContributorRole>E07</ContributorRole>
+<PersonName>Ben Lindbergh</PersonName>
+<PersonNameInverted>Lindbergh, Ben</PersonNameInverted>
+<NamesBeforeKey>Ben</NamesBeforeKey>
+<KeyNames>Lindbergh</KeyNames>
+</Contributor>
+<Contributor>
+<SequenceNumber>7</SequenceNumber>
+<ContributorRole>E07</ContributorRole>
+<PersonName>Jonathan Hock</PersonName>
+<PersonNameInverted>Hock, Jonathan</PersonNameInverted>
+<NamesBeforeKey>Jonathan</NamesBeforeKey>
+<KeyNames>Hock</KeyNames>
+</Contributor>
+<Contributor>
+<SequenceNumber>8</SequenceNumber>
+<ContributorRole>E07</ContributorRole>
+<PersonName>Mary Pilon</PersonName>
+<PersonNameInverted>Pilon, Mary</PersonNameInverted>
+<NamesBeforeKey>Mary</NamesBeforeKey>
+<KeyNames>Pilon</KeyNames>
+</Contributor>
+<Contributor>
+<SequenceNumber>9</SequenceNumber>
+<ContributorRole>E07</ContributorRole>
+<PersonName>Steve Kornacki</PersonName>
+<PersonNameInverted>Kornacki, Steve</PersonNameInverted>
+<NamesBeforeKey>Steve</NamesBeforeKey>
+<KeyNames>Kornacki</KeyNames>
+</Contributor>
+<Contributor>
+<SequenceNumber>10</SequenceNumber>
+<ContributorRole>E07</ContributorRole>
+<PersonName>Louisa Thomas</PersonName>
+<PersonNameInverted>Thomas, Louisa</PersonNameInverted>
+<NamesBeforeKey>Louisa</NamesBeforeKey>
+<KeyNames>Thomas</KeyNames>
+</Contributor>
+<Contributor>
+<SequenceNumber>11</SequenceNumber>
+<ContributorRole>E07</ContributorRole>
+<PersonName>Nate DiMeo</PersonName>
+<PersonNameInverted>DiMeo, Nate</PersonNameInverted>
+<NamesBeforeKey>Nate</NamesBeforeKey>
+<KeyNames>DiMeo</KeyNames>
+</Contributor>
+<Contributor>
+<SequenceNumber>12</SequenceNumber>
+<ContributorRole>E07</ContributorRole>
+<PersonName>Jeremy Schaap</PersonName>
+<PersonNameInverted>Schaap, Jeremy</PersonNameInverted>
+<NamesBeforeKey>Jeremy</NamesBeforeKey>
+<KeyNames>Schaap</KeyNames>
+</Contributor>
+<Contributor>
+<SequenceNumber>13</SequenceNumber>
+<ContributorRole>E07</ContributorRole>
+<PersonName>Neil Pain</PersonName>
+<PersonNameInverted>Pain, Neil</PersonNameInverted>
+<NamesBeforeKey>Neil</NamesBeforeKey>
+<KeyNames>Pain</KeyNames>
+</Contributor>
+<Contributor>
+<SequenceNumber>14</SequenceNumber>
+<ContributorRole>E07</ContributorRole>
+<PersonName>Will Leitch</PersonName>
+<PersonNameInverted>Leitch, Will</PersonNameInverted>
+<NamesBeforeKey>Will</NamesBeforeKey>
+<KeyNames>Leitch</KeyNames>
+</Contributor>
+<Contributor>
+<SequenceNumber>15</SequenceNumber>
+<ContributorRole>E07</ContributorRole>
+<PersonName>Julian E. Zelizer</PersonName>
+<PersonNameInverted>Zelizer, Julian E.</PersonNameInverted>
+<NamesBeforeKey>Julian E.</NamesBeforeKey>
+<KeyNames>Zelizer</KeyNames>
+</Contributor>
+<Contributor>
+<SequenceNumber>16</SequenceNumber>
+<ContributorRole>E07</ContributorRole>
+<PersonName>Liam Boylan-Pett</PersonName>
+<PersonNameInverted>Boylan-Pett, Liam</PersonNameInverted>
+<NamesBeforeKey>Liam</NamesBeforeKey>
+<KeyNames>Boylan-Pett</KeyNames>
+</Contributor>
+<Contributor>
+<SequenceNumber>17</SequenceNumber>
+<ContributorRole>E07</ContributorRole>
+<PersonName>Claude Johnson</PersonName>
+<PersonNameInverted>Johnson, Claude</PersonNameInverted>
+<NamesBeforeKey>Claude</NamesBeforeKey>
+<KeyNames>Johnson</KeyNames>
+</Contributor>
+<EditionType>UBR</EditionType>
+<EditionStatement>retail</EditionStatement>
+<Language>
+<LanguageRole>01</LanguageRole>
+<LanguageCode>eng</LanguageCode>
+</Language>
+<Extent>
+<ExtentType>09</ExtentType>
+<ExtentValue>585</ExtentValue>
+<ExtentUnit>05</ExtentUnit>
+</Extent>
+<Subject>
+<MainSubject/>
+<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+<SubjectCode>SPO066000</SubjectCode>
+</Subject>
+<Subject>
+<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+<SubjectCode>SPO012000</SubjectCode>
+</Subject>
+<Subject>
+<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+<SubjectCode>SPO019000</SubjectCode>
+</Subject>
+<Subject>
+<SubjectSchemeIdentifier>10</SubjectSchemeIdentifier>
+<SubjectCode>HUM013000</SubjectCode>
+</Subject>
+<Subject>
+<SubjectSchemeIdentifier>20</SubjectSchemeIdentifier>
+<SubjectHeadingText>sports;sports history;slate;what-ifs;sports what-ifs;football;baseball;basketball;olympics;1936 olympics;tom brady;tennis;billie jean king;drew bledsoe;mike pesca;books about sports;books about sports history;slate podcast;upon further review;the gist;sports journalism;books of essays</SubjectHeadingText>
+</Subject>
+<AudienceCode>01</AudienceCode>
+<Audience>
+<AudienceCodeType>01</AudienceCodeType>
+<AudienceCodeValue>01</AudienceCodeValue>
+</Audience>
+</DescriptiveDetail>
+<CollateralDetail>
+<TextContent>
+<TextType>03</TextType>
+<ContentAudience>00</ContentAudience>
+<Text textformat="02"><![CDATA[<DIV><B>From Mike Pesca, host of the popular <I>Slate</I> podcast <I>The Gist</I>, comes the greatest sports minds imagining how the world would change if a play, trade, injury, or referee's call had just gone the other way.</B><br><br> "Intriguing...thought provoking...delightful." <I>--The Washington Post</I><br>  No announcer ever proclaimed: "Up Rises Frazier!" "Havlicek commits the foul, trying to steal the ball!" or "The Giants Lose the Pennant, The Giants Lose The Pennant!" Such moments are indelibly etched upon the mind of every sports fan. Or rather, they would be, had they happened. Sports are notoriously games of inches, and when we conjure the thought of certain athletes - like Bill Buckner or Scott Norwood - we can't help but apply a mental tape measure to the highlight reels of our minds. Players, coaches, and of course fans, obsess on the play when they ask, "What if?" <I>Upon Further Review</I> is the first book to answer that question.<br><I>Upon Further Review </I>is a book of counterfactual sporting scenarios. In its pages the reader will find expertly reported histories, where one small event is flipped on its head, and the resulting ripples are carefully documented, the likes of...<br><br>   What if the U.S. Boycotted Hitler's Olympics?<br><br>  What if Bobby Riggs beat Billie Jean King?<br><br>  What if Bucky Dent popped out at the foot of the Green Monster?<br><br>  What if Drew Bledsoe never got hurt? <br><br><I>Upon Further Review</I> takes classic arguments conducted over pints in a pub and places them in the hands of dozens of writers, athletes, and historians. From turning points that every sports fan rues or celebrates, to the forgotten would-be inflection points that defined sports, <I>Upon Further Review</I> answers age old questions, and settles the score, even if the score bounced off the crossbar.</DIV>]]></Text>
+</TextContent>
+<TextContent>
+<TextType>12</TextType>
+<ContentAudience>00</ContentAudience>
+<Text textformat="02"><![CDATA[<DIV><B>Mike Pesca</B> is the host of the daily podcast <I>The Gist</I>.  For ten years he was a reporter for <I>NPR</I>, where he primarily covered sports. He has covered Super Bowls, Final Fours, the World Series, the NBA Finals, the Olympics, the World Cup, the World Series of Poker, and the Westminster Dog Show. In addition to hosting the <I>NPR News<I> quiz <I>Wait, Wait, Don't Tell Me</I>, his work has been featured on <I>This American Life, Radiolab,</I> and <I>Inside the NFL</I>, as well as in <I>Baseball Prospectus</I> and <I>Basketball Prospectus</I>.   <br><br>He is the winner of two Edward R. Murrow awards, one for his coverage of high school football, another for his analysis of the monetary value of Crackerjacks being mentioned in the lyrics to "Take Me Out to the Ball Game." He was a two-time winner of the Emory University Intramural Softball Official of the Year.</DIV>]]></Text>
+</TextContent>
+<TextContent>
+<TextType>06</TextType>
+<ContentAudience>00</ContentAudience>
+<Text textformat="02"><![CDATA["What if you didn't read UPON FURTHER REVIEW<I>? </I>You'd miss a lot of mind-blowing fun. But why take the chance? Read it. You'll laugh. You'll learn. You'll impress your friends. There hasn't been a sure winner like this book since Mike Tyson beat Buster Douglas."—<i><b>Jonathan Eig, author of Ali: A Life and Luckiest Man: The Life and Death of Lou Gehrig</b></i>]]></Text>
+</TextContent>
+<TextContent>
+<TextType>06</TextType>
+<ContentAudience>00</ContentAudience>
+<Text textformat="02"><![CDATA["The inevitable plight of sports fans is longing for what might have been. Retrospective analysis -- and wistful reimagining -- is what gets them through the night. UPON FURTHER REVIEW teems with such moonlit fantastical -- and a ravishing counterfactual revelation: sportswriters, the proud and embittered few, are actually a delightful bunch of goofball romantics."—<i><b>Nicholas Dawidoff, author of The Catcher Was A Spy and Collision Low Crossers.</b></i>]]></Text>
+</TextContent>
+<TextContent>
+<TextType>06</TextType>
+<ContentAudience>00</ContentAudience>
+<Text textformat="02"><![CDATA["Enlightening and entertaining, Pesca's collection of hypothetical sports outcomes gives sports fans much food for thought."—<i><b>Publishers Weekly</b></i>]]></Text>
+</TextContent>
+<TextContent>
+<TextType>06</TextType>
+<ContentAudience>00</ContentAudience>
+<Text textformat="02"><![CDATA["This is sports escapism brought to new and entertaining heights."—<i><b>Kirkus</b></i>]]></Text>
+</TextContent>
+<TextContent>
+<TextType>06</TextType>
+<ContentAudience>00</ContentAudience>
+<Text textformat="02"><![CDATA["A thought-provoking venture into sports' road-not-taken possibilities."—<i><b>Booklist</b></i>]]></Text>
+</TextContent>
+</CollateralDetail>
+<PublishingDetail>
+<Imprint>
+<ImprintIdentifier>
+<ImprintIDType>01</ImprintIDType>
+<IDValue>010406</IDValue>
+</ImprintIdentifier>
+<ImprintName>Twelve</ImprintName>
+</Imprint>
+<Publisher>
+<PublishingRole>01</PublishingRole>
+<PublisherIdentifier>
+<PublisherIDType>01</PublisherIDType>
+<IDValue>Hachette Audio</IDValue>
+</PublisherIdentifier>
+<PublisherName>Hachette Audio</PublisherName>
+</Publisher>
+<CountryOfPublication>US</CountryOfPublication>
+<PublishingStatus>04</PublishingStatus>
+<PublishingDate>
+<PublishingDateRole>01</PublishingDateRole>
+<Date dateformat="00">20180515</Date>
+</PublishingDate>
+<PublishingDate>
+<PublishingDateRole>02</PublishingDateRole>
+<Date dateformat="00">20180515</Date>
+</PublishingDate>
+<SalesRights>
+<SalesRightsType>03</SalesRightsType>
+<Territory>
+<CountriesIncluded>AG AI AU BB BD BJ BM BN BS BT BW BZ CC CK CM CY DM EG FJ FK GB GD GG GH GI GM GS GY IE IM IN IO IQ JE JM JO KE KI KN KW KY LC LK LS MN MS MT MU MV MW MZ NA NF NG NP NR NZ PG PK PN SB SC SD SH SL SO SZ TC TO TT TV TZ UG VC VG VU WS YE ZA ZM ZW</CountriesIncluded>
+</Territory>
+</SalesRights>
+<SalesRights>
+<SalesRightsType>02</SalesRightsType>
+<Territory>
+<CountriesIncluded>AD AE AF AL AM AO AQ AR AS AT AW AX AZ BA BE BF BG BH BI BL BO BQ BR BV BY CD CF CG CH CI CL CN CO CR CU CV CW CX CZ DE DJ DK DO DZ EC EE EH ER ES ET FI FM FO FR GA GE GF GL GN GP GQ GR GT GW HK HM HN HR HT HU ID IL IR IS IT JP KG KH KM KP KR KZ LA LB LI LR LT LU LV LY MA MC MD ME MF MG MH MK ML MM MO MP MQ MR MX MY NC NE NI NL NO NU OM PA PE PF PL PM PS PT PW PY QA RE RO RS RU RW SA SE SG SI SJ SK SM SN SR SS ST SV SX SY TD TF TG TH TJ TK TL TM TN TR TW UA UY UZ VA VE VN WF YT</CountriesIncluded>
+</Territory>
+</SalesRights>
+<SalesRights>
+<SalesRightsType>01</SalesRightsType>
+<Territory>
+<CountriesIncluded>CA GU PH PR UM US VI</CountriesIncluded>
+</Territory>
+</SalesRights>
+<ROWSalesRightsType>00</ROWSalesRightsType>
+</PublishingDetail>
+<RelatedMaterial>
+<RelatedWork>
+<WorkRelationCode>01</WorkRelationCode>
+<WorkIdentifier>
+<WorkIDType>01</WorkIDType>
+<IDValue>9781455540365</IDValue>
+</WorkIdentifier>
+</RelatedWork>
+<RelatedProduct>
+<ProductRelationCode>13</ProductRelationCode>
+<ProductIdentifier>
+<ProductIDType>02</ProductIDType>
+<IDValue>1455540366</IDValue>
+</ProductIdentifier>
+</RelatedProduct>
+<RelatedProduct>
+<ProductRelationCode>13</ProductRelationCode>
+<ProductIdentifier>
+<ProductIDType>15</ProductIDType>
+<IDValue>9781455540365</IDValue>
+</ProductIdentifier>
+</RelatedProduct>
+</RelatedMaterial>
+<ProductSupply>
+<Market>
+<Territory>
+<CountriesIncluded>AD AE AF AL AM AO AQ AR AS AT AW AX AZ BA BE BF BG BH BI BL BO BQ BR BV BY CA CD CF CG CH CI CL CN CO CR CU CV CW CX CZ DE DJ DK DO DZ EC EE EH ER ES ET FI FM FO FR GA GE GF GL GN GP GQ GR GT GU GW HK HM HN HR HT HU ID IL IR IS IT JP KG KH KM KP KR KZ LA LB LI LR LT LU LV LY MA MC MD ME MF MG MH MK ML MM MO MP MQ MR MX MY NC NE NI NL NO NU OM PA PE PF PH PL PM PR PS PT PW PY QA RE RO RS RU RW SA SE SG SI SJ SK SM SN SR SS ST SV SX SY TD TF TG TH TJ TK TL TM TN TR TW UA UM US UY UZ VA VE VI VN WF YT</CountriesIncluded>
+</Territory>
+</Market>
+<MarketPublishingDetail>
+<MarketPublishingStatus>04</MarketPublishingStatus>
+<MarketDate>
+<MarketDateRole>01</MarketDateRole>
+<Date dateformat="00">20180515</Date>
+</MarketDate>
+</MarketPublishingDetail>
+<SupplyDetail>
+<Supplier>
+<SupplierRole>00</SupplierRole>
+<SupplierName>Hachette Book Group USA</SupplierName>
+</Supplier>
+<ReturnsConditions>
+<ReturnsCodeType>02</ReturnsCodeType>
+<ReturnsCode>N</ReturnsCode>
+</ReturnsConditions>
+<ProductAvailability>20</ProductAvailability>
+<SupplyDate>
+<SupplyDateRole>02</SupplyDateRole>
+<Date dateformat="00">20180515</Date>
+</SupplyDate>
+<Price>
+<PriceType>01</PriceType>
+<DiscountCoded>
+<DiscountCodeType>02</DiscountCodeType>
+<DiscountCodeTypeName>HBG</DiscountCodeTypeName>
+<DiscountCode>XL</DiscountCode>
+</DiscountCoded>
+<PriceAmount>25.98</PriceAmount>
+<CurrencyCode>USD</CurrencyCode>
+<Territory>
+<CountriesIncluded>AD AE AF AL AM AO AQ AR AS AT AW AX AZ BA BE BF BG BH BI BL BO BQ BR BV BY CA CD CF CG CH CI CL CN CO CR CU CV CW CX CZ DE DJ DK DO DZ EC EE EH ER ES ET FI FM FO FR GA GE GF GL GN GP GQ GR GT GU GW HK HM HN HR HT HU ID IL IR IS IT JP KG KH KM KP KR KZ LA LB LI LR LT LU LV LY MA MC MD ME MF MG MH MK ML MM MO MP MQ MR MX MY NC NE NI NL NO NU OM PA PE PF PH PL PM PR PS PT PW PY QA RE RO RS RU RW SA SE SG SI SJ SK SM SN SR SS ST SV SX SY TD TF TG TH TJ TK TL TM TN TR TW UA UM US UY UZ VA VE VI VN WF YT</CountriesIncluded>
+</Territory>
+<PriceDate>
+<PriceDateRole>14</PriceDateRole>
+<Date dateformat="00">20200124</Date>
+</PriceDate>
+</Price>
+<Price>
+<PriceType>01</PriceType>
+<DiscountCoded>
+<DiscountCodeType>02</DiscountCodeType>
+<DiscountCodeTypeName>HBG</DiscountCodeTypeName>
+<DiscountCode>XL</DiscountCode>
+</DiscountCoded>
+<PriceAmount>33.98</PriceAmount>
+<CurrencyCode>CAD</CurrencyCode>
+<Territory>
+<CountriesIncluded>AD AE AF AL AM AO AQ AR AS AT AW AX AZ BA BE BF BG BH BI BL BO BQ BR BV BY CA CD CF CG CH CI CL CN CO CR CU CV CW CX CZ DE DJ DK DO DZ EC EE EH ER ES ET FI FM FO FR GA GE GF GL GN GP GQ GR GT GU GW HK HM HN HR HT HU ID IL IR IS IT JP KG KH KM KP KR KZ LA LB LI LR LT LU LV LY MA MC MD ME MF MG MH MK ML MM MO MP MQ MR MX MY NC NE NI NL NO NU OM PA PE PF PH PL PM PR PS PT PW PY QA RE RO RS RU RW SA SE SG SI SJ SK SM SN SR SS ST SV SX SY TD TF TG TH TJ TK TL TM TN TR TW UA UM US UY UZ VA VE VI VN WF YT</CountriesIncluded>
+</Territory>
+<PriceDate>
+<PriceDateRole>14</PriceDateRole>
+<Date dateformat="00">20200124</Date>
+</PriceDate>
+</Price>
+</SupplyDetail>
+</ProductSupply>
+</Product>
+</ONIXMessage>

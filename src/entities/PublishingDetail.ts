@@ -21,14 +21,15 @@ export class PublishingDetail {
     this.publishingDates = json.PublishingDate.map(
       (pd) => new PublishingDate(pd)
     );
-    this.salesRights = new SalesRights(parseValue(json, "SalesRights"));
+    this.salesRights = json.SalesRights.map((sr) => new SalesRights(sr));
     this.imprint = new Imprint(parseValue(json, "Imprint"));
+    // missing ROWSalesRightsType
   }
 
   publisher: Publisher;
   publishingStatus: PublishingStatusEnum;
   publishingDates: PublishingDate[];
-  salesRights: SalesRights;
+  salesRights: SalesRights[];
   imprint: Imprint;
 }
 
